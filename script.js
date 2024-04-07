@@ -52,8 +52,8 @@ t1.from("nav",{
     opacity:0
 })
 
-t1.from("#hero1 h1,#hero2 h1,#hero3 h2,#hero4 h1",{
-    y:130,
+t1.from(".hero h1,.hero h2",{
+    y:160,
     stagger:0.2
 })
 }
